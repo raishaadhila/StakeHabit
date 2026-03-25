@@ -1,6 +1,6 @@
 import { AnchorProvider, Program, BN } from "@coral-xyz/anchor";
 import { Connection, PublicKey, clusterApiUrl } from "@solana/web3.js";
-import idl from "../../target/idl/stakehabit.json";
+import idl from "./idl.json";
 
 export const PROGRAM_ID = new PublicKey("BiNHU6WREw9goaqhSS842Ls667rwgzTodueRXVssDrkx");
 export const CONNECTION = new Connection(clusterApiUrl("devnet"), "confirmed");
